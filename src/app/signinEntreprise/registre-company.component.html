@@ -1,0 +1,35 @@
+<div class="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-600 to-blue-900">
+  <div class="w-full max-w-md">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()" class="shadow-2xl rounded-lg px-10 pt-8 pb-10 mb-4 bg-white">
+      <div class="mb-6 text-center">
+        <label class="block text-black text-3xl font-bold mb-7">
+          Créer un profil d'entreprise
+        </label>
+      </div>
+      <div class="mb-8">
+        <label class="block text-black text-lg font-bold mb-2" for="username">
+          Nom d'utilisateur
+        </label>
+        <input formControlName="username" type="text" id="username" class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" placeholder="Nom d'utilisateur">
+      </div>
+      <div class="mb-8">
+        <label class="block text-black text-lg font-bold mb-2" for="password">
+          Mot de passe
+        </label>
+        <input formControlName="password" id="password" type="password" class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" placeholder="********">
+      </div>
+      <div class="mb-8">
+        <label class="block text-black text-lg font-bold mb-2" for="email">
+          Adresse e-mail
+        </label>
+        <input formControlName="email" id="email" type="text" class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-blue-600 sm:text-sm sm:leading-6" placeholder="Email">
+      </div>
+      <div *ngIf="error" class="text-red-500 mb-4">{{ error }}</div>
+      <div class="flex justify-center">
+        <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50">
+          Compléter le Profil
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

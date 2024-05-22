@@ -1,0 +1,962 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "company1",
+      "password": "password1",
+      "role": "company",
+      "companyId": 1
+    },
+    {
+      "id": "2",
+      "username": "company2",
+      "password": "password2",
+      "role": "company",
+      "companyId": 2
+    },
+    {
+      "id": "3",
+      "username": "candidate1",
+      "password": "password3",
+      "role": "candidate",
+      "candidateId": 1
+    },
+    {
+      "id": "4",
+      "username": "candidate2",
+      "password": "password4",
+      "role": "candidate",
+      "candidateId": 2
+    },
+    {
+      "username": "haddoudi",
+      "password": "test@gmail.com",
+      "role": "candidate",
+      "candidateId": "7i6ouhn",
+      "id": "axJF4fA"
+    },
+    {
+      "username": "haddoudi",
+      "password": "test@gmail.com",
+      "role": "candidate",
+      "candidateId": "sh8PR5-",
+      "id": "0FUp7Y4"
+    },
+    {
+      "username": "haddoudi",
+      "password": "test@gmail.com",
+      "role": "candidate",
+      "candidateId": "5RpPHUK",
+      "id": "lf8vejM"
+    },
+    {
+      "username": "uir",
+      "password": "test@gmail.com",
+      "role": "company",
+      "email": "test@gmail.com",
+      "companyId": "keiJCrL",
+      "id": "D4376HW"
+    },
+    {
+      "username": "uir",
+      "password": "test@gmail.com",
+      "role": "company",
+      "email": "test@gmail.com",
+      "companyId": "4TeEetO",
+      "id": "fQhW3xS"
+    },
+    {
+      "username": "haddoudi",
+      "password": "test@gmail.com",
+      "role": "candidate",
+      "candidateId": "Po0NiWx",
+      "id": "04V4VDw"
+    },
+    {
+      "username": "company1",
+      "password": "test@gmail.com",
+      "role": "company",
+      "email": "test@gmail.com",
+      "companyId": "z3MhP_k",
+      "id": "P7cxqAW"
+    },
+    {
+      "username": "haddoudi",
+      "password": "test@gmail.com",
+      "role": "candidate",
+      "candidateId": "53DRSSs",
+      "id": "Tl2DF9m"
+    },
+    {
+      "username": "user1",
+      "password": "test@gmail.com",
+      "role": "candidate",
+      "candidateId": "p-Aqwyw",
+      "id": "VWZCIAT"
+    },
+    {
+      "username": "test@gmail.com",
+      "password": "test@gmail.com",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "0YCApJ9",
+      "role": "company",
+      "id": "UK5Wol3"
+    },
+    {
+      "username": "test@gmail.com",
+      "password": "test@gmail.com",
+      "role": "candidate",
+      "candidateId": "rIbdKbx",
+      "id": "vcZVfzz"
+    },
+    {
+      "username": "Hamza azzab",
+      "password": "hamza",
+      "role": "candidate",
+      "candidateId": "pGlIWAY",
+      "id": "j9DFPEV"
+    },
+    {
+      "username": "hamza maliki",
+      "password": "nuttertools",
+      "role": "candidate",
+      "candidateId": "_0gEzcg",
+      "id": "LqYGL3v"
+    },
+    {
+      "username": "Hamza azzab",
+      "password": "yess",
+      "role": "candidate",
+      "candidateId": "MBSM8tK",
+      "id": "DfFqrxN"
+    },
+    {
+      "username": "hp",
+      "password": "hp",
+      "email": "hp@gmail.com",
+      "companyId": "xEqqzrs",
+      "role": "company",
+      "id": "cpSfKmi"
+    },
+    {
+      "username": "Hamza azzab",
+      "password": "hhhhhh",
+      "role": "candidate",
+      "candidateId": "7A1zRlc",
+      "id": "oIip7MM"
+    },
+    {
+      "username": "hp",
+      "password": "hp",
+      "email": "hp@gmail.com",
+      "companyId": "-nv1T6W",
+      "role": "company",
+      "id": "isL7blF"
+    },
+    {
+      "username": "DELL",
+      "password": "DELL",
+      "email": "dell@gmail.com",
+      "companyId": "ozFyPMD",
+      "role": "company",
+      "id": "fAsG0eZ"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "role": "candidate",
+      "candidateId": "FX0ZaIb",
+      "id": "rdHVrHo"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "qWksW4U",
+      "role": "company",
+      "id": "MD5yhMq"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "089rKuS",
+      "role": "company",
+      "id": "ZeSSscy"
+    },
+    {
+      "username": "company4",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "pFvae-b",
+      "role": "company",
+      "id": "ix6kkK-"
+    },
+    {
+      "username": "company43",
+      "password": "12345",
+      "email": "Ahaddoudi74@gmail.com",
+      "companyId": "HuC_wlP",
+      "role": "company",
+      "id": "PgWm4Yf"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Tech Innovators",
+      "description": "A leading company in tech innovations, providing cutting-edge solutions.",
+      "location": "San Francisco, CA",
+      "jobs": [
+        {
+          "id": 1,
+          "title": "Frontend Developer",
+          "description": "Looking for an experienced frontend developer with knowledge in Angular.",
+          "skills": [
+            {
+              "name": "JavaScript"
+            },
+            {
+              "name": "Angular"
+            },
+            {
+              "name": "HTML"
+            },
+            {
+              "name": "CSS"
+            }
+          ],
+          "location": "San Francisco, CA"
+        },
+        {
+          "id": 2,
+          "title": "Backend Developer",
+          "description": "Seeking a backend developer proficient in Node.js and MongoDB.",
+          "skills": [
+            {
+              "name": "Project Management"
+            },
+            {
+              "name": "Project Management"
+            },
+            {
+              "name": "Project Management"
+            }
+          ],
+          "location": "Remote"
+        }
+      ],
+      "email": "contact@techinnovators.com",
+      "phone": "555-1234"
+    },
+    {
+      "id": "2",
+      "name": "Health Solutions",
+      "description": "Innovating healthcare with advanced technology and solutions.",
+      "location": "New York, NY",
+      "jobs": [
+        {
+          "id": 3,
+          "title": "Data Scientist",
+          "description": "Seeking a data scientist with expertise in machine learning and healthcare data.",
+          "skills": [
+            {
+              "name": "Project Management"
+            },
+            {
+              "name": "Project Management"
+            },
+            {
+              "name": "Project Management"
+            }
+          ],
+          "location": "New York, NY"
+        },
+        {
+          "id": 4,
+          "title": "Project Manager",
+          "description": "Looking for a project manager with experience in healthcare projects.",
+          "skills": [
+            {
+              "name": "Project Management"
+            },
+            {
+              "name": "Project Management"
+            },
+            {
+              "name": "Project Management"
+            }
+          ],
+          "location": "Remote"
+        }
+      ],
+      "contact": {
+        "email": "hr@healthsolutions.com",
+        "phone": "555-5678"
+      }
+    },
+    {
+      "name": "uir",
+      "description": "company",
+      "location": "casablanca",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "uir",
+      "id": "keiJCrL"
+    },
+    {
+      "name": "uir",
+      "description": "campany1",
+      "location": "casa",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "uir",
+      "id": "4TeEetO"
+    },
+    {
+      "name": "company1",
+      "description": "company",
+      "location": "casa",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "casavdbd",
+      "id": "z3MhP_k"
+    },
+    {
+      "name": "ABDELKARIM HADDOUDI",
+      "description": "casa",
+      "location": "casa",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "haddd",
+      "id": "0YCApJ9"
+    },
+    {
+      "name": "HP",
+      "description": "Entreprise kat nsseb ela nasse",
+      "location": "google chrome",
+      "email": "hamza.azzab@emsi-edu.ma",
+      "phone": "0657147321",
+      "linkedin": "google",
+      "id": "xEqqzrs"
+    },
+    {
+      "name": "HP",
+      "description": "Entreprise kat nsseb ela nasse",
+      "location": "google chrome",
+      "email": "hamza.azzab@emsi-edu.ma",
+      "phone": "0657147321",
+      "linkedin": "google",
+      "id": "-nv1T6W"
+    },
+    {
+      "name": "DELL",
+      "description": "info",
+      "location": "new york",
+      "email": "hamza.azzab@emsi-edu.ma",
+      "phone": "0657147321",
+      "linkedin": "google",
+      "id": "ozFyPMD"
+    },
+    {
+      "name": "jnqlvk",
+      "description": "k, sldkc s",
+      "location": " k,kdl d",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": " cqsqcc",
+      "id": "qWksW4U"
+    },
+    {
+      "name": "kcnsdcjs",
+      "description": "k,csk",
+      "location": "cunijskns",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "cnjscdcs",
+      "id": "089rKuS"
+    },
+    {
+      "name": "jdcdjc",
+      "description": "kdc,dkc",
+      "location": ",ckd,cd",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "ccd",
+      "id": "pFvae-b"
+    },
+    {
+      "name": "ABDELKARIM HADDOUDI",
+      "description": "jknkcs",
+      "location": "k,lkcs",
+      "email": "Ahaddoudi74@gmail.com",
+      "phone": "0767148455",
+      "linkedin": "jncsd",
+      "id": "HuC_wlP"
+    }
+  ],
+  "applications": [
+    {
+      "id": "1",
+      "jobId": 1,
+      "candidateId": 1,
+      "status": "Applied"
+    },
+    {
+      "id": "2",
+      "jobId": 3,
+      "candidateId": 2,
+      "status": "Applied"
+    },
+    {
+      "jobId": "2",
+      "status": "Applied",
+      "id": "ndVIE3T"
+    },
+    {
+      "jobId": "2",
+      "status": "Applied",
+      "id": "iqm0R1m"
+    },
+    {
+      "jobId": "2",
+      "status": "Applied",
+      "id": "1SQ-cLR"
+    },
+    {
+      "jobId": "1",
+      "status": "Applied",
+      "id": "l4KZq0l"
+    }
+  ],
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Frontend Developer",
+      "description": "Looking for an experienced frontend developer with knowledge in Angular.",
+      "skills": [
+        {
+          "name": "JavaScript"
+        },
+        {
+          "name": "Angular"
+        },
+        {
+          "name": "HTML"
+        },
+        {
+          "name": "CSS"
+        }
+      ],
+      "location": "San Francisco, CA",
+      "companyId": 1
+    },
+    {
+      "id": "2",
+      "title": "Backend Developer",
+      "description": "Seeking a backend developer proficient in Node.js and MongoDB.",
+      "skills": [
+        {
+          "name": "Node.js"
+        },
+        {
+          "name": "MongoDB"
+        },
+        {
+          "name": "Express"
+        }
+      ],
+      "location": "Remote",
+      "companyId": 1
+    },
+    {
+      "id": "3",
+      "title": "Data Scientist",
+      "description": "Seeking a data scientist with expertise in machine learning and healthcare data.",
+      "skills": [
+        {
+          "name": "Python"
+        },
+        {
+          "name": "Machine Learning"
+        },
+        {
+          "name": "Data Analysis"
+        }
+      ],
+      "location": "New York, NY",
+      "companyId": 2
+    },
+    {
+      "id": "4",
+      "title": "Project Manager",
+      "description": "Looking for a project manager with experience in healthcare projects.",
+      "skills": [
+        {
+          "name": "Project Management"
+        },
+        {
+          "name": "Healthcare"
+        },
+        {
+          "name": "Agile"
+        }
+      ],
+      "location": "Remote",
+      "companyId": 2
+    }
+  ],
+  "candidates": [
+    {
+      "id": "1",
+      "name": "haddoudi",
+      "prenom": "abdelkarim",
+      "password": "123Haddoudi",
+      "email": "john.doe@example.com",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "website": "https://johndoe.com",
+      "country": "United States",
+      "city": "New York",
+      "summary": "A passionate software engineer with over 5 years of experience in developing scalable web applications. Skilled in JavaScript, React, Node.js, and MongoDB.",
+      "skills": [
+        {
+          "name": "C++",
+          "neveau": "debutant"
+        },
+        {
+          "name": "Java",
+          "neveau": "debutant"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Certified React Developer",
+          "date": "2021"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Senior Software Engineer",
+          "company": "TechCorp",
+          "dates": "2019 - Present",
+          "location": "New York, NY",
+          "description": "Led a team of 5 engineers in developing a real-time analytics platform using React, Node.js, and MongoDB. Achieved a 30% increase in performance and a 20% reduction in downtime."
+        },
+        {
+          "title": "Software Engineer",
+          "company": "Innovate Solutions",
+          "dates": "2017 - 2019",
+          "location": "San Francisco, CA",
+          "description": "Developed and maintained a web application for managing customer relationships, improving the efficiency of sales processes by 25%."
+        }
+      ],
+      "hobbies": [
+        {
+          "hobby": "Cycling",
+          "description": "Enjoys cycling in Central Park during weekends."
+        },
+        {
+          "hobby": "Reading",
+          "description": "Keeps up-to-date with the latest technology trends through reading books and articles."
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "institution": "Stanford University",
+          "dates": "2013 - 2017",
+          "location": "Stanford, CA"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Real-Time Analytics Platform",
+          "description": "A web-based platform for real-time data analysis, built using React, Node.js, and MongoDB. The platform allows users to visualize and analyze large datasets in real-time.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        {
+          "title": "Customer Relationship Management System",
+          "description": "A web application for managing customer relationships, featuring a user-friendly interface and advanced analytics capabilities.",
+          "technologies": [
+            "JavaScript",
+            "HTML/CSS",
+            "Git"
+          ]
+        }
+      ],
+      "publications": [
+        {
+          "title": "Optimizing Web Performance with React",
+          "publication": "Web Development Digest",
+          "year": "2020"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Fluent"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "AZZAB",
+      "prenom": "HAMZA",
+      "email": "hamzaa.azzab@example.com",
+      "phone": "+21265844784",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "website": "https://johndoe.com",
+      "country": "United States",
+      "city": "New York",
+      "summary": "A passionate software engineer with over 5 years of experience in developing scalable web applications. Skilled in JavaScript, React, Node.js, and MongoDB.",
+      "skills": [
+        {
+          "name": "C++",
+          "neveau": "debutant"
+        },
+        {
+          "name": "Java",
+          "neveau": "debutant"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Certified React Developer",
+          "date": "2021"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Senior Software Engineer",
+          "company": "TechCorp",
+          "dates": "2019 - Present",
+          "location": "New York, NY",
+          "description": "Led a team of 5 engineers in developing a real-time analytics platform using React, Node.js, and MongoDB. Achieved a 30% increase in performance and a 20% reduction in downtime."
+        },
+        {
+          "title": "Software Engineer",
+          "company": "Innovate Solutions",
+          "dates": "2017 - 2019",
+          "location": "San Francisco, CA",
+          "description": "Developed and maintained a web application for managing customer relationships, improving the efficiency of sales processes by 25%."
+        }
+      ],
+      "hobbies": [
+        {
+          "hobby": "Cycling",
+          "description": "Enjoys cycling in Central Park during weekends."
+        },
+        {
+          "hobby": "Reading",
+          "description": "Keeps up-to-date with the latest technology trends through reading books and articles."
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "institution": "Stanford University",
+          "dates": "2013 - 2017",
+          "location": "Stanford, CA"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Real-Time Analytics Platform",
+          "description": "A web-based platform for real-time data analysis, built using React, Node.js, and MongoDB. The platform allows users to visualize and analyze large datasets in real-time.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        {
+          "title": "Customer Relationship Management System",
+          "description": "A web application for managing customer relationships, featuring a user-friendly interface and advanced analytics capabilities.",
+          "technologies": [
+            "JavaScript",
+            "HTML/CSS",
+            "Git"
+          ]
+        }
+      ],
+      "publications": [
+        {
+          "title": "Optimizing Web Performance with React",
+          "publication": "Web Development Digest",
+          "year": "2020"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Fluent"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "haddoudi",
+      "prenom": "abdelkarim",
+      "email": "john.doe@example.com",
+      "phone": "+1234567890",
+      "github": "https://github.com/johndoe",
+      "linkedin": "https://linkedin.com/in/johndoe",
+      "twitter": "https://twitter.com/johndoe",
+      "website": "https://johndoe.com",
+      "country": "United States",
+      "city": "New York",
+      "summary": "A passionate software engineer with over 5 years of experience in developing scalable web applications. Skilled in JavaScript, React, Node.js, and MongoDB.",
+      "skills": [
+        {
+          "name": "C++",
+          "neveau": "debutant"
+        },
+        {
+          "name": "Java",
+          "neveau": "debutant"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "Certified React Developer",
+          "date": "2021"
+        }
+      ],
+      "experience": [
+        {
+          "title": "Senior Software Engineer",
+          "company": "TechCorp",
+          "dates": "2019 - Present",
+          "location": "New York, NY",
+          "description": "Led a team of 5 engineers in developing a real-time analytics platform using React, Node.js, and MongoDB. Achieved a 30% increase in performance and a 20% reduction in downtime."
+        },
+        {
+          "title": "Software Engineer",
+          "company": "Innovate Solutions",
+          "dates": "2017 - 2019",
+          "location": "San Francisco, CA",
+          "description": "Developed and maintained a web application for managing customer relationships, improving the efficiency of sales processes by 25%."
+        }
+      ],
+      "hobbies": [
+        {
+          "hobby": "Cycling",
+          "description": "Enjoys cycling in Central Park during weekends."
+        },
+        {
+          "hobby": "Reading",
+          "description": "Keeps up-to-date with the latest technology trends through reading books and articles."
+        }
+      ],
+      "education": [
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "institution": "Stanford University",
+          "dates": "2013 - 2017",
+          "location": "Stanford, CA"
+        }
+      ],
+      "projects": [
+        {
+          "title": "Real-Time Analytics Platform",
+          "description": "A web-based platform for real-time data analysis, built using React, Node.js, and MongoDB. The platform allows users to visualize and analyze large datasets in real-time.",
+          "technologies": [
+            "React",
+            "Node.js",
+            "MongoDB"
+          ]
+        },
+        {
+          "title": "Customer Relationship Management System",
+          "description": "A web application for managing customer relationships, featuring a user-friendly interface and advanced analytics capabilities.",
+          "technologies": [
+            "JavaScript",
+            "HTML/CSS",
+            "Git"
+          ]
+        }
+      ],
+      "publications": [
+        {
+          "title": "Optimizing Web Performance with React",
+          "publication": "Web Development Digest",
+          "year": "2020"
+        }
+      ],
+      "languages": [
+        {
+          "language": "English",
+          "proficiency": "Native"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Fluent"
+        }
+      ]
+    },
+    {
+      "id": "7i6ouhn"
+    },
+    {
+      "id": "sh8PR5-"
+    },
+    {
+      "nom": "HADDOUDI",
+      "prenom": "ABDELKARIM",
+      "github": "haddoudi abdelkarim",
+      "linkedin": "haddoudi abdelkarim",
+      "summary": "i m haddoudi",
+      "phone": "0767148455",
+      "skills": [],
+      "certifications": [],
+      "experience": [],
+      "hobbies": [],
+      "education": [],
+      "projects": [],
+      "publications": [],
+      "languages": [],
+      "country": "Maroc",
+      "city": "TINGHIR",
+      "id": "5RpPHUK"
+    },
+    {
+      "nom": "HADDOUDI",
+      "prenom": "ABDELKARIM",
+      "github": "HADDOUDI",
+      "linkedin": "HADDOUDI",
+      "summary": "i m hadddoudi",
+      "phone": "HADDOUDI",
+      "skills": [
+        {
+          "name": "java"
+        },
+        {
+          "name": "python"
+        }
+      ],
+      "certifications": [],
+      "experience": [],
+      "hobbies": [],
+      "education": [],
+      "projects": [],
+      "publications": [],
+      "languages": [],
+      "country": "Maroc",
+      "city": "TINGHIR",
+      "id": "Po0NiWx"
+    },
+    {
+      "nom": "HADDOUDI",
+      "prenom": "ABDELKARIM",
+      "github": "ABDELKARIM",
+      "linkedin": "ABDELKARIM",
+      "summary": "i m dev",
+      "phone": "0767148455",
+      "skills": [
+        {
+          "name": "java"
+        }
+      ],
+      "certifications": [],
+      "experience": [],
+      "hobbies": [],
+      "education": [],
+      "projects": [],
+      "publications": [],
+      "languages": [],
+      "country": "Maroc",
+      "city": "TINGHIR",
+      "id": "53DRSSs"
+    },
+    {
+      "nom": "HADDOUDI",
+      "prenom": "ABDELKARIM",
+      "github": "ABDELKARIM",
+      "linkedin": "ABDELKARIM",
+      "summary": "ABDELKARIM",
+      "phone": "0767148455",
+      "skills": [],
+      "certifications": [],
+      "experience": [],
+      "hobbies": [],
+      "education": [],
+      "projects": [],
+      "publications": [],
+      "languages": [],
+      "country": "Maroc",
+      "city": "TINGHIR",
+      "id": "p-Aqwyw"
+    },
+    {
+      "nom": "HADDOUDI",
+      "prenom": "ABDELKARIM",
+      "github": "haddoudi",
+      "linkedin": "haddoudi",
+      "summary": "haddoudi",
+      "phone": "0767148455",
+      "skills": [],
+      "certifications": [],
+      "experience": [],
+      "hobbies": [],
+      "education": [],
+      "projects": [],
+      "publications": [],
+      "languages": [],
+      "country": "Maroc",
+      "city": "TINGHIR",
+      "id": "rIbdKbx"
+    },
+    {
+      "nom": "HADDOUDI",
+      "prenom": "ABDELKARIM",
+      "github": "jkbschksqc",
+      "linkedin": "cuijkqz",
+      "summary": "hcvbhqbh",
+      "phone": "0767148455",
+      "skills": [
+        {
+          "name": "java"
+        }
+      ],
+      "certifications": [
+        {
+          "name": "agil",
+          "date": "12/10/2022"
+        }
+      ],
+      "experience": [
+        {
+          "title": "hbcdc",
+          "company": " ndcsd",
+          "dates": "12/10/2022",
+          "location": "casablanca",
+          "description": "hbxdbcxsckjd"
+        }
+      ],
+      "hobbies": [],
+      "education": [],
+      "projects": [],
+      "publications": [],
+      "languages": [],
+      "country": "Maroc",
+      "city": "TINGHIR",
+      "id": "FX0ZaIb"
+    }
+  ]
+}

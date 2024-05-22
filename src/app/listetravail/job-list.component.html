@@ -1,0 +1,46 @@
+<div class="flex h-screen bg-gray-200">
+  <app-navar-profile *ngIf="isAut"></app-navar-profile>
+  <div class="flex-1 bg-gradient-to-r from-teal-300 to-gray-400">
+    <div class="mt-3 flex items-center justify-center bg-gray-200">
+      <div class="bg-white p-8 rounded shadow-md w-full max-w-2xl">
+        <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">Liste des offres d'emploi</h2>
+        <div class="mb-6">
+          <input
+            type="text"
+            class="w-full p-2 border rounded mb-4"
+            placeholder="Rechercher des offres d'emploi..."
+            [(ngModel)]="searchTerm"
+          />
+          <select class="w-full p-2 border rounded mb-4" [(ngModel)]="selectedLocation">
+            <option value="">Filtrer par localisation</option>
+            <option *ngFor="let location of uniqueLocations" [value]="location">{{ location }}</option>
+          </select>
+          <select class="w-full p-2 border rounded mb-4" [(ngModel)]="selectedSkill">
+            <option value="">Filtrer par compétence</option>
+            <option *ngFor="let skill of uniqueSkills" [value]="skill">{{ skill }}</option>
+          </select>
+        </div>
+        <ul *ngIf="filteredJobs.length > 0">
+          <li class="mb-4 p-4 border rounded hover:bg-gray-300 cursor-pointer" *ngFor="let job of filteredJobs">
+            <h3 class="text-xl font-bold mb-2">{{ job.title }}</h3>
+            <p class="text-gray-700 mb-2">{{ job.description }}</p>
+            <div class="mb-2">
+              <h4 class="text-lg font-semibold text-gray-800">Compétences requises:</h4>
+              <div class="flex flex-wrap">
+                <span *ngFor="let skill of job.skills" class="bg-blue-200 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded">
+                  {{ skill.name }}
+                </span>
+              </div>
+            </div>
+            <div class="text-gray-700">
+              <h4 class="text-lg font-semibold">Localisation:</h4>
+              <p>{{ job.location }}</p>
+            </div>
+            <button *ngIf="authCandidat" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Postuler</button>
+          </li>
+        </ul>
+        <p *ngIf="filteredJobs.length === 0" class="text-center text-gray-500">Aucune offre d'emploi trouvée.</p>
+      </div>
+    </div>
+  </div>
+</div>
